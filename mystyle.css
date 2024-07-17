@@ -1,0 +1,84 @@
+*{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-family: "roboto";
+    font-size: 1em;
+  }
+  
+ body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4em;
+  }
+  
+img{
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin-left: 6em;
+
+}
+
+  .info{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-bottom: 1em;
+  }
+  
+  #name{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .cutout{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 1em;
+    margin: 3em;
+    padding: 2em;
+    
+  }
+  
+  #location{
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  p{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .link{
+    font-weight: bold;
+    border:none;
+    background-color: hsl(0, 0%, 12%);
+    padding: 1em ;
+    border-radius: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    width: 15em;
+  }
+  
+    .buttons :hover {
+    background-color: hsl(75, 0%, 57%); 
+    transition-duration: 0.4s;
+    color: black;
+  }
+  
+  
+  
